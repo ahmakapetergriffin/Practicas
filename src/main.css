@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+body td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+input {
+  border: none;
+  background: none;
+}
+
+input:hover {
+  opacity: 0.2;
+}
+/*# sourceMappingURL=main.css.map */

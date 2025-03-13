@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
+    <link rel="stylesheet" href="main.css">
+    <title>Pagina Inicial</title>
+</head>
+<body>
+    <div class="container">
+        <h1> Vehículos a la venta</h1>
+        <table class="table table-hover table-striped">
+            <tbody>
+                <tr>
+                    <td rowspan="3" class="w-50"> 
+                        <img src="/src/Images/1.jpg" class="img-fluid" id="imagen"> 
+                        <input type="button" value="<-" onclick="anterior()"> 
+                        <input type="button" value="->" onclick="posterior()"> 
+                    </td>
+                    <td colspan="4" class="w-50 mx-auto"> Seat </td>
+                </tr>
+                <tr>
+                    <td colspan="4" class="w-50"> Leon</td>
+                </tr>
+                <tr>
+                    <td colspan="4" class="w-50"> Diesel </td>
+                </tr>
+
+
+
+
+            </tbody>
+        </table>
+    </div>
+<script src="main.js"></script> 
+</body>
+</html>
